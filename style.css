@@ -1,0 +1,162 @@
+
+.Header__Wrapper
+{
+    border-bottom: 2px solid #939393;
+}
+
+.hero-image {
+    background-image: url("train_station.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 100px;
+    left: 50%;
+    height: 400px;
+}
+
+.w3-padding-large {
+    padding: 12px 24px!important;
+}
+.w3-opacity, .w3-hover-opacity:hover {
+    opacity: 0.60;
+}
+.w3-display-bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.w3-xxlarge
+{
+    color: red;
+}
+
+.Heading, .Heading-2{
+    font-family: Futura,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #939393;
+    -webkit-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration:none
+}
+
+p{
+    font-family: Futura,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #3d0317;
+    -webkit-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 0.2em;
+    text-decoration:none
+}
+
+.Heading-2
+{
+    text-align: center;
+}
+
+.Header--center .Header__MainNav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.Header--center .Header__MainNav .HorizontalList {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.HorizontalList {
+    list-style: none;
+    /* margin: -6px -8px; */
+}
+
+.HorizontalList--spacingExtraLoose .HorizontalList__Item {
+    margin-right: 21px;
+    margin-left: 21px;
+}
+
+.HorizontalList__Item {
+    display: inline-block;
+    margin: 6px 8px 6px 8px;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
+
+  .underline {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .underline:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0; /*change it to right for a diff cool effect */
+    width: 0;
+    bottom: -7px;
+    background: #939393;
+    height: 3px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .underline:hover:after,
+  .underline:focus:after,
+  .underline:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+
+
+  .w3-content, .w3-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w3-padding-64 {
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+
+
+.w3-col.m6, .w3-half {
+    width: 49.99999%;
+}
+.w3-padding-large {
+    padding: 12px 24px!important;
+}
+.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+    float: left;
+    width: 100%;
+}
+
+.w3-opacity-min {
+    opacity: 0.75;
+}
+.w3-round, .w3-round-medium {
+    border-radius: 4px;
+}
+.w3-image {
+    max-width: 100%;
+    height: auto;
+}
